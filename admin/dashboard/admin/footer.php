@@ -1,0 +1,1 @@
+<footer class="main"> &copy; 2018 <strong>USC BS ICT </strong></footer>

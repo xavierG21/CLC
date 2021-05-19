@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>PayPal Cancelled</title>
+		<link rel="icon" type="image/ico" href="../images/payment_img_1.png">
+		<link rel="stylesheet" type="text/css" media="all" href="../css/bootstrap2.min.css">
+		<style>
+			
+
+		</style>
+	</head>
+<body>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">PayPal Cancelled</h5>
+      </div>
+      <div class="modal-body">
+      	<div align="center">
+      	<img src='../images/PayPal.png' width="120px" height="100px"></div>
+       <h4> Something went wrong... </h4>
+       <p>Payment have been cancelled.</p>
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id='return'>Return to Website</button>
+      </div>
+    </div>
+  </div>
+</div>
+	
+
+
+</body>
+</html>
+<script src="../js/jquery.min.js"> </script>
+<script src="../js/bootstrap.min.js"></script>
+<script>
+	$('#exampleModal').modal('show');
+
+	$('#return').click(function(){
+		window.location ='../index.php';
+		
+	});
+</script>
